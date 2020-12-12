@@ -16,8 +16,13 @@ class MyDocument extends Document<DocumentProps> {
           <meta charSet="utf-8" />
           <link rel="icon" href="/favicon.ico" />
 
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@100;700&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
             rel="stylesheet"
           />
         </Head>
