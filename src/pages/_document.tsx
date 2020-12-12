@@ -14,20 +14,17 @@ class MyDocument extends Document<DocumentProps> {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
+          <meta name="theme-color" content="#ff9000" />
           <link rel="icon" href="/favicon.ico" />
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@100;700&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap"
             rel="stylesheet"
           />
         </Head>
         <body>
-          <ColorModeScript initialColorMode="light" />
+          <ColorModeScript />
           <Main />
           <NextScript />
         </body>
